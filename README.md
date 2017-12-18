@@ -1,0 +1,4 @@
+# AliasManager
+
+
+shell alias manager 
