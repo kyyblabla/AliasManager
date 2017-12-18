@@ -32,12 +32,9 @@ public:
     };
 
 private slots:
-    void on_tableWidget_itemChanged(QTableWidgetItem *item);
 
     void on_add_clicked();
     void on_remove_clicked();
-
-    void on_tableWidget_itemSelectionChanged();
 
 private:
     Ui::MainWindow *ui;

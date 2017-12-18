@@ -14,9 +14,9 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    aliasitemmodel.cpp
+    aliastablemodel.cpp
 
 HEADERS  += mainwindow.h \
-    aliasitemmodel.h
+    aliastablemodel.h
 
 FORMS    += mainwindow.ui

@@ -60,7 +60,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QTableWidget" name="tableWidget">
+     <widget class="QTableView" name="tableView">
       <property name="selectionMode">
        <enum>QAbstractItemView::SingleSelection</enum>
       </property>
@@ -79,30 +79,18 @@
       <property name="cornerButtonEnabled">
        <bool>true</bool>
       </property>
-      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
-       <bool>true</bool>
-      </attribute>
       <attribute name="horizontalHeaderStretchLastSection">
        <bool>true</bool>
       </attribute>
       <attribute name="verticalHeaderVisible">
        <bool>false</bool>
       </attribute>
-      <column>
-       <property name="text">
-        <string>use</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>alias</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>command</string>
-       </property>
-      </column>
+      <attribute name="verticalHeaderCascadingSectionResizes">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>0</number>
+      </attribute>
      </widget>
     </item>
     <item>
